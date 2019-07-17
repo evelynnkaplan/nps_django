@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  {% load static %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{% static 'nps_django/style.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'nps_django/registration.css' %}">
+
+  <h1>Register your annual pass</h1>
+
+{% if messages %}
+  <ul class="messages">
+      {% for message in messages %}
+      <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+      {% endfor %}
+  </ul>
+{% endif %}
+<!-- Message logic comes from https://docs.djangoproject.com/en/2.2/ref/contrib/messages/ -->
+  
+  <section class="form-container">
+    <form action="/registration/" method="post">
+      {% csrf_token %}
+      {{ form }}
+      <input type="submit" value="Submit" class="form-submit-button">
+    </form>
+  </section>
+
+</html>

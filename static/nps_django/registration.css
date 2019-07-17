@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: white url("images/background.gif");
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  list-style-position: outside;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.messages {
+  background: rgba(114, 176, 67, 0.7);
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.messages li {
+  display: block;
+  text-align: center;
+  padding: 5%;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.form-container {
+  background: rgba(40, 46, 62, .6);
+  border-radius: 2%;
+  width: 75%;
+  height: 80%;
+  justify-self: center;
+  margin-bottom: 3%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 3%;
+}
+
+input, select {
+  width: 90%;
+  font-size: 1em;
+  padding: .75%;
+  resize: vertical;
+  background: white;
+}
+
+label {
+  align-self: flex-start;
+  margin: 1% 0% 1% 0%;
+}
+
+.form-submit-button {
+  border-style: outset;
+  margin-top: 5%;
+  height: 75%;;
+  width: 50%;
+}
+

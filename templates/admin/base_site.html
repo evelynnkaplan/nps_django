@@ -1,0 +1,9 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('NPS Passholder Database') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">NPS Passholder Database</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
