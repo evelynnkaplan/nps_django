@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 import django_heroku
-import nps_django.config
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -81,8 +80,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'annual-pass-db',
-        'USER': 'ekaplan',
-        'PASSWORD': nps_django.config.DB_PASSWORD,
+        'USER': os.environ['DJANGO_DB_USERNAME'],
+        'PASSWORD': os.environ['DJANGO_DB_PASSWORD'],
         'HOST': 'localhost',
         'PORT': '',
     }
