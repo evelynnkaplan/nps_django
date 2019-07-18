@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  margin-top: 12vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  display: block;
+  width: 70%;
+  text-align: center;
+}
+
+a:not(#register-button) {
+  color: #98BCA5;
+  text-decoration: none;
+}
+
+#register-button {
+  align-self: center;
+  text-decoration: none;
+  color: white;
+  background: rgba(40, 46, 62, .6);
+  padding: 1vw;
+  border-radius: 5%;
+}
+
+/* phones */
+@media (max-width: 414px) {
+  main {
+    margin-top: 30%;
+  }
+
+}
+
+/* iPads */
+@media (min-width: 768px) and (max-width: 1366px) {
+  main {
+    margin-top: 30%;
+  }
+
+  p, a {
+    font-size: 20px;
+  }
+}
+
+/* laptops */
+@media (min-width: 1366px) {
+  main {
+    margin-top: 10vw;
+  }
+
+  p, a {
+    font-size: 25px;
+  }
+}

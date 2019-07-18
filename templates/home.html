@@ -1,8 +1,22 @@
 <!DOCTYPE html>
-<html>
-  {% load static %}
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="{% static 'nps_django/style.css' %}">
-
-<h1>Welcome home</h1>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home | MyNPSPass</title>
+    <meta name="description" content="National Park Pass Homepage">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif&display=swap" rel="stylesheet">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'nps_django/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'nps_django/home.css' %}">
+  </head>
+  <body>
+    <main>
+      <h1>My National Park Service Pass</h1>
+      <p>Register your annual pass with the National Park Service for faster entrance at more than 2,000 federal sites.
+      For more information, visit the <a href="https://www.nps.gov/planyourvisit/passes.htm">National Park Service website</a>.</p>
+      </p>
+      <a href="{% url 'passholder_registration' %}" id="register-button">Register your pass</a>
+    </main>
+  </body>
+</html>

@@ -10,7 +10,7 @@ router.register(r'parks', views.ParkViewSet)
 router.register(r'visits', views.VisitViewSet)
 
 urlpatterns = [
-    path('', views.home),
+    path('', views.home, name='home'),
     path('api/', include(router.urls)),
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
