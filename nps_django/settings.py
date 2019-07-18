@@ -13,7 +13,6 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 import os
 import django_heroku
 import environ
-import dj-database-url
 
 env = environ.Env(
   DEBU=(bool, False)
@@ -97,9 +96,6 @@ DATABASES = {
         'PORT': '',
     }
 }
-
-db_from_env = dj_database_url.config()
-DATABASES[‘default’].update(db_from_env)
 
 
 # Password validation
