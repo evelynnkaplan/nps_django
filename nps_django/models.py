@@ -63,7 +63,7 @@ class Pass(models.Model):
   zip_code = models.CharField(max_length=20, null=True)
   email = models.EmailField(max_length=100, verbose_name='Email address')
   phone_num = models.CharField(
-    max_length=20,
+    max_length=30,
     verbose_name='Phone number')
   cost = models.DecimalField(
     max_digits=5, 
