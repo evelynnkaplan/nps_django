@@ -1,0 +1,305 @@
+- model: nps_django.park
+  pk: 1
+  fields: 
+    name: Acadia National Park
+    state: ME
+- model: nps_django.park
+  pk: 2
+  fields: 
+    name: American Samoa National Park 
+    state: AS
+- model: nps_django.park
+  pk: 3
+  fields: 
+    name: Arches National Park
+    state: UT
+- model: nps_django.park
+  pk: 4
+  fields: 
+    name: Badlands National Park
+    state: SD
+- model: nps_django.park
+  pk: 5
+  fields: 
+    name: Big Bend National Park
+    state: TX
+- model: nps_django.park
+  pk: 6
+  fields: 
+    name: Biscayne National Park 
+    state: FL
+- model: nps_django.park
+  pk: 7
+  fields: 
+    name: Black Canyon of the Gunnison National Park
+    state: CO
+- model: nps_django.park
+  pk: 8
+  fields: 
+    name: Bryce Canyon National Park
+    state: UT
+- model: nps_django.park
+  pk: 9
+  fields: 
+    name: Canyonlands National Park
+    state: UT
+- model: nps_django.park
+  pk: 10
+  fields: 
+    name: Capitol Reef National Park
+    state: UT
+- model: nps_django.park
+  pk: 11
+  fields: 
+    name: Carlsbad Caverns National Park
+    state: NM 
+- model: nps_django.park
+  pk: 12
+  fields: 
+    name: Channel Islands National Park
+    state: CA
+- model: nps_django.park
+  pk: 13
+  fields: 
+    name: Congaree National Park
+    state: SC
+- model: nps_django.park
+  pk: 14
+  fields: 
+    name: Crater Lake National Park
+    state: OR
+- model: nps_django.park
+  pk: 15
+  fields: 
+    name: Cuyahoga Valley National Park
+    state: OH
+- model: nps_django.park
+  pk: 16
+  fields: 
+    name: Death Valley National Park
+    state: CA
+- model: nps_django.park
+  pk: 17
+  fields: 
+    name: Denali National Park
+    state: AK
+- model: nps_django.park
+  pk: 18
+  fields: 
+    name: Dry Tortugas National Park
+    state: FL
+- model: nps_django.park
+  pk: 19
+  fields: 
+    name: Everglades National Park
+    state: FL
+- model: nps_django.park
+  pk: 20
+  fields: 
+    name: Gates of the Arctic
+    state: AK
+- model: nps_django.park
+  pk: 21
+  fields: 
+    name: Gateway Arch National Park
+    state: MO
+- model: nps_django.park
+  pk: 22
+  fields: 
+    name: Glacier National Park
+    state: MT
+- model: nps_django.park
+  pk: 23
+  fields: 
+    name: Glacier Bay National Park
+    state: AK
+- model: nps_django.park
+  pk: 24
+  fields: 
+    name: Grand Canyon National Park
+    state: AZ
+- model: nps_django.park
+  pk: 25
+  fields: 
+    name: Grand Teton National Park 
+    state: WY
+- model: nps_django.park
+  pk: 26
+  fields: 
+    name: Great Basin National Park
+    state: NV
+- model: nps_django.park
+  pk: 27
+  fields: 
+    name: Great Sand Dunes National Park
+    state: CO
+- model: nps_django.park
+  pk: 28
+  fields: 
+    name: Great Smoky Mountains National Park
+    state: TN
+- model: nps_django.park
+  pk: 29
+  fields: 
+    name: Guadalupe Mountains National Park
+    state: TX
+- model: nps_django.park
+  pk: 30
+  fields: 
+    name: Haleakalā National Park
+    state: HI
+- model: nps_django.park
+  pk: 31
+  fields: 
+    name: Hawai'i Volcanoes National Park
+    state: HI
+- model: nps_django.park
+  pk: 32
+  fields: 
+    name: Hot Springs National Park
+    state: AR
+- model: nps_django.park
+  pk: 33
+  fields: 
+    name: Indiana Dunes National Park
+    state: IN
+- model: nps_django.park
+  pk: 34
+  fields: 
+    name: Isle Royale National Park
+    state: MI
+- model: nps_django.park
+  pk: 35
+  fields: 
+    name: Joshua Tree National Park
+    state: CA
+- model: nps_django.park
+  pk: 36
+  fields: 
+    name: Katmai National Park
+    state: AK
+- model: nps_django.park
+  pk: 37
+  fields: 
+    name: Kenai Fjords National Park
+    state: AK
+- model: nps_django.park
+  pk: 38
+  fields: 
+    name: Kings Canyon National Park
+    state: CA
+- model: nps_django.park
+  pk: 39
+  fields: 
+    name: Kobuk Valley National Park
+    state: AK
+- model: nps_django.park
+  pk: 40
+  fields: 
+    name: Lake Clark National Park
+    state: AK
+- model: nps_django.park
+  pk: 41
+  fields: 
+    name: Lassen Volcanic National Park
+    state: CA
+- model: nps_django.park
+  pk: 42
+  fields: 
+    name: Mammoth Cave National Park
+    state: KY
+- model: nps_django.park
+  pk: 43
+  fields: 
+    name: Mesa Verde National Park
+    state: CO
+- model: nps_django.park
+  pk: 44
+  fields: 
+    name: Mount Rainier National Park
+    state: WA
+- model: nps_django.park
+  pk: 45
+  fields: 
+    name: North Cascades National Park
+    state: WA
+- model: nps_django.park
+  pk: 46
+  fields: 
+    name: Olympic National Park
+    state: WA
+- model: nps_django.park
+  pk: 47
+  fields: 
+    name: Petrified Forest National Park
+    state: AZ
+- model: nps_django.park
+  pk: 48
+  fields: 
+    name: Pinnacles National Park
+    state: CA
+- model: nps_django.park
+  pk: 49
+  fields: 
+    name: Redwood National Park
+    state: CA
+- model: nps_django.park
+  pk: 50
+  fields: 
+    name: Rocky Mountain National Park
+    state: CO
+- model: nps_django.park
+  pk: 51
+  fields: 
+    name: Saguaro National Park
+    state: AZ
+- model: nps_django.park
+  pk: 52
+  fields: 
+    name: Sequoia National Park
+    state: CA
+- model: nps_django.park
+  pk: 53
+  fields: 
+    name: Shenandoah National Park
+    state: VA
+- model: nps_django.park
+  pk: 54
+  fields: 
+    name: Theodore Roosevelt National Park
+    state: ND 
+- model: nps_django.park
+  pk: 55
+  fields: 
+    name: Virgin Islands National Park
+    state: VI
+- model: nps_django.park
+  pk: 56
+  fields: 
+    name: Voyageurs National Park
+    state: MN
+- model: nps_django.park
+  pk: 57
+  fields: 
+    name: Wind Cave National Park
+    state: SD
+- model: nps_django.park
+  pk: 58
+  fields: 
+    name: Wrangell-St. Elias National Park
+    state: AK
+- model: nps_django.park
+  pk: 59
+  fields: 
+    name: Yellowstone National Park
+    state: WY
+- model: nps_django.park
+  pk: 60
+  fields: 
+    name: Yosemite National Park
+    state: CA
+- model: nps_django.park
+  pk: 61
+  fields: 
+    name: Zion National Park 
+    state: UT
