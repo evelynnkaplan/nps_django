@@ -27,10 +27,6 @@ li {
   padding: 5%;
 }
 
-h1 {
-  font-size: 2em;
-}
-
 .form-container {
   background: rgba(40, 46, 62, .6);
   border-radius: 2%;
@@ -50,7 +46,7 @@ form {
 
 input, select {
   width: 90%;
-  font-size: 1em;
+  font-size: 1vw;
   padding: .75%;
   resize: vertical;
   background: white;
