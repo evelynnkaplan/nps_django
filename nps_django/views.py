@@ -6,6 +6,9 @@ from django.shortcuts import render
 from django.contrib import messages
 from .forms import PassForm
 
+def home(request):
+  return render(request, 'home.html')
+
 def registration(request):
   if request.method == 'POST':
     form = PassForm(request.POST)
