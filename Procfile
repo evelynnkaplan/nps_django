@@ -1,1 +1,1 @@
-web: gunicorn npds_django.wsgi —-log-file -
+web: gunicorn nps_django.wsgi —-log-file -
