@@ -20,3 +20,9 @@ h1 {
     font-size: 5vw;
   }
 }
+
+@media (min-width: 1366px) {
+  h1 {
+    font-size: 3vw;
+  }
+}

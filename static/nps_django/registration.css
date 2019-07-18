@@ -75,3 +75,15 @@ label {
   }
 }
 
+@media (min-width: 1366px) {
+
+  input, select, label {
+    font-size: 1vw;
+  }
+}
+
+@media (min-width: 2600px) {
+  body {
+    background-size: 3200px 1800px;
+  }
+}
