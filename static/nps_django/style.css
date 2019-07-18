@@ -6,5 +6,17 @@ body {
 
 h1 {
   font-family: 'PT Serif', serif;
-  font-size: 4vw;
+  font-size: 3vw;
+}
+
+@media (max-width: 414px) {
+  h1 {
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  h1 {
+    font-size: 5vw;
+  }
 }

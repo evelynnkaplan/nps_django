@@ -46,7 +46,7 @@ form {
 
 input, select {
   width: 90%;
-  font-size: 1vw;
+  font-size: 1em;
   padding: .75%;
   resize: vertical;
   background: white;
@@ -62,5 +62,16 @@ label {
   margin-top: 5%;
   height: 75%;;
   width: 50%;
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+
+  input, select, label {
+    font-size: 3vw;
+  }
+
+  body {
+    background-size: 2428px 1366px;
+  }
 }
 
