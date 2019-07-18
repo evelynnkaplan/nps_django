@@ -1,0 +1,360 @@
+- fields:
+    date: 2017-11-02
+    park: 46
+    passholder: 14
+  model: nps_django.visit
+  pk: 1
+- fields:
+    date: 2017-08-22
+    park: 23
+    passholder: 14
+  model: nps_django.visit
+  pk: 2
+- fields:
+    date: 2017-09-13
+    park: 47
+    passholder: 17
+  model: nps_django.visit
+  pk: 3
+- fields:
+    date: 2017-08-12
+    park: 52
+    passholder: 3
+  model: nps_django.visit
+  pk: 4
+- fields:
+    date: 2018-08-09
+    park: 3
+    passholder: 12
+  model: nps_django.visit
+  pk: 5
+- fields:
+    date: 2018-09-01
+    park: 17
+    passholder: 5
+  model: nps_django.visit
+  pk: 6
+- fields:
+    date: 2018-09-07
+    park: 11
+    passholder: 14
+  model: nps_django.visit
+  pk: 7
+- fields:
+    date: 2017-12-25
+    park: 45
+    passholder: 7
+  model: nps_django.visit
+  pk: 8
+- fields:
+    date: 2019-03-04
+    park: 20
+    passholder: 15
+  model: nps_django.visit
+  pk: 9
+- fields:
+    date: 2018-04-27
+    park: 15
+    passholder: 3
+  model: nps_django.visit
+  pk: 10
+- fields:
+    date: 2019-02-17
+    park: 14
+    passholder: 4
+  model: nps_django.visit
+  pk: 11
+- fields:
+    date: 2018-01-14
+    park: 40
+    passholder: 2
+  model: nps_django.visit
+  pk: 12
+- fields:
+    date: 2019-03-30
+    park: 44
+    passholder: 19
+  model: nps_django.visit
+  pk: 13
+- fields:
+    date: 2018-07-06
+    park: 47
+    passholder: 15
+  model: nps_django.visit
+  pk: 14
+- fields:
+    date: 2017-09-06
+    park: 31
+    passholder: 4
+  model: nps_django.visit
+  pk: 15
+- fields:
+    date: 2018-04-13
+    park: 39
+    passholder: 14
+  model: nps_django.visit
+  pk: 16
+- fields:
+    date: 2019-06-22
+    park: 59
+    passholder: 5
+  model: nps_django.visit
+  pk: 17
+- fields:
+    date: 2018-03-09
+    park: 23
+    passholder: 25
+  model: nps_django.visit
+  pk: 18
+- fields:
+    date: 2017-08-03
+    park: 8
+    passholder: 17
+  model: nps_django.visit
+  pk: 19
+- fields:
+    date: 2018-06-04
+    park: 49
+    passholder: 14
+  model: nps_django.visit
+  pk: 20
+- fields:
+    date: 2019-05-23
+    park: 34
+    passholder: 1
+  model: nps_django.visit
+  pk: 21
+- fields:
+    date: 2017-08-12
+    park: 28
+    passholder: 11
+  model: nps_django.visit
+  pk: 22
+- fields:
+    date: 2017-09-13
+    park: 34
+    passholder: 17
+  model: nps_django.visit
+  pk: 23
+- fields:
+    date: 2019-05-06
+    park: 53
+    passholder: 6
+  model: nps_django.visit
+  pk: 24
+- fields:
+    date: 2017-10-08
+    park: 11
+    passholder: 14
+  model: nps_django.visit
+  pk: 25
+- fields:
+    date: 2019-05-28
+    park: 8
+    passholder: 20
+  model: nps_django.visit
+  pk: 26
+- fields:
+    date: 2019-06-18
+    park: 11
+    passholder: 23
+  model: nps_django.visit
+  pk: 27
+- fields:
+    date: 2019-03-11
+    park: 41
+    passholder: 18
+  model: nps_django.visit
+  pk: 28
+- fields:
+    date: 2019-04-22
+    park: 27
+    passholder: 16
+  model: nps_django.visit
+  pk: 29
+- fields:
+    date: 2019-05-25
+    park: 3
+    passholder: 7
+  model: nps_django.visit
+  pk: 30
+- fields:
+    date: 2018-11-26
+    park: 46
+    passholder: 21
+  model: nps_django.visit
+  pk: 31
+- fields:
+    date: 2018-04-01
+    park: 56
+    passholder: 18
+  model: nps_django.visit
+  pk: 32
+- fields:
+    date: 2017-08-13
+    park: 32
+    passholder: 23
+  model: nps_django.visit
+  pk: 33
+- fields:
+    date: 2018-07-15
+    park: 44
+    passholder: 2
+  model: nps_django.visit
+  pk: 34
+- fields:
+    date: 2018-01-11
+    park: 4
+    passholder: 1
+  model: nps_django.visit
+  pk: 35
+- fields:
+    date: 2017-08-30
+    park: 9
+    passholder: 14
+  model: nps_django.visit
+  pk: 36
+- fields:
+    date: 2017-09-14
+    park: 36
+    passholder: 17
+  model: nps_django.visit
+  pk: 37
+- fields:
+    date: 2019-04-12
+    park: 49
+    passholder: 25
+  model: nps_django.visit
+  pk: 38
+- fields:
+    date: 2019-04-11
+    park: 1
+    passholder: 7
+  model: nps_django.visit
+  pk: 39
+- fields:
+    date: 2018-12-04
+    park: 55
+    passholder: 4
+  model: nps_django.visit
+  pk: 40
+- fields:
+    date: 2019-01-21
+    park: 61
+    passholder: 7
+  model: nps_django.visit
+  pk: 41
+- fields:
+    date: 2019-03-27
+    park: 8
+    passholder: 6
+  model: nps_django.visit
+  pk: 42
+- fields:
+    date: 2018-05-15
+    park: 37
+    passholder: 10
+  model: nps_django.visit
+  pk: 43
+- fields:
+    date: 2019-06-18
+    park: 57
+    passholder: 3
+  model: nps_django.visit
+  pk: 44
+- fields:
+    date: 2017-08-20
+    park: 55
+    passholder: 18
+  model: nps_django.visit
+  pk: 45
+- fields:
+    date: 2018-07-18
+    park: 61
+    passholder: 23
+  model: nps_django.visit
+  pk: 46
+- fields:
+    date: 2018-09-05
+    park: 44
+    passholder: 18
+  model: nps_django.visit
+  pk: 47
+- fields:
+    date: 2018-02-02
+    park: 4
+    passholder: 5
+  model: nps_django.visit
+  pk: 48
+- fields:
+    date: 2018-01-20
+    park: 54
+    passholder: 4
+  model: nps_django.visit
+  pk: 49
+- fields:
+    date: 2017-10-05
+    park: 5
+    passholder: 3
+  model: nps_django.visit
+  pk: 50
+- fields:
+    date: 2017-11-08
+    park: 26
+    passholder: 6
+  model: nps_django.visit
+  pk: 51
+- fields:
+    date: 2018-06-04
+    park: 15
+    passholder: 13
+  model: nps_django.visit
+  pk: 52
+- fields:
+    date: 2017-10-12
+    park: 48
+    passholder: 23
+  model: nps_django.visit
+  pk: 53
+- fields:
+    date: 2017-08-05
+    park: 20
+    passholder: 16
+  model: nps_django.visit
+  pk: 54
+- fields:
+    date: 2018-08-20
+    park: 10
+    passholder: 7
+  model: nps_django.visit
+  pk: 55
+- fields:
+    date: 2019-07-08
+    park: 55
+    passholder: 25
+  model: nps_django.visit
+  pk: 56
+- fields:
+    date: 2018-05-10
+    park: 14
+    passholder: 6
+  model: nps_django.visit
+  pk: 57
+- fields:
+    date: 2019-03-08
+    park: 59
+    passholder: 20
+  model: nps_django.visit
+  pk: 58
+- fields:
+    date: 2019-06-10
+    park: 39
+    passholder: 3
+  model: nps_django.visit
+  pk: 59
+- fields:
+    date: 2018-11-13
+    park: 54
+    passholder: 20
+  model: nps_django.visit
+  pk: 60
