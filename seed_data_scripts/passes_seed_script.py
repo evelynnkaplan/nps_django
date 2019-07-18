@@ -18,14 +18,15 @@ pass_types = [
 pass_costs = [45.00, 80.00, 75.00, 30.00, 25.00, 100.00, 95.00]
 pass_ids = []
 
-for i in range(1, 26):
+for i in range(1, 301):
   if i < 10:
     pass_ids.append(f'00000{i}')
-  else: 
+  elif 9 < i < 100:
     pass_ids.append(f'0000{i}')
+  else: 
+    pass_ids.append(f'000{i}')
 
-
-for i in range(1, 26):
+for i in range(1, 301):
   new_pass = {}
   new_pass['model'] = 'nps_django.pass'
   new_pass['pk'] = i

@@ -4,13 +4,13 @@ import yaml
 fake = Faker()
 
 passholders = []
-for i in range(1, 26):
+for i in range(1, 301):
   passholder = {}
   passholder['model'] = 'nps_django.passholder'
   passholder['pk'] = i
   passholder['fields'] = { 
-    'first_name': fake.name().split(' ')[0], 
-    'last_name': fake.name().split(' ')[1],
+    'first_name': fake.first_name(), 
+    'last_name': fake.last_name(),
     }
   passholders.append(passholder)
 
