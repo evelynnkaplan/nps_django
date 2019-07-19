@@ -89,6 +89,12 @@ class Pass(models.Model):
 class Park(models.Model):
   name = models.CharField(max_length=100)
   state = models.CharField(max_length=2)
+  latitude = models.CharField(
+    max_length=100,
+    null=True)
+  longitude = models.CharField(
+    max_length=100,
+    null=True)
 
   def __str__(self):
     return f'{self.name}'
