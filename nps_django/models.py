@@ -59,7 +59,8 @@ class Pass(models.Model):
     blank=True) 
   expiration_date = models.DateField(
     verbose_name='Expiration date', 
-    null=True)
+    null=True,
+    blank=True)
   zip_code = models.CharField(max_length=20, null=True)
   email = models.EmailField(max_length=100, verbose_name='Email address')
   phone_num = models.CharField(
