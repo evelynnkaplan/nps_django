@@ -73,8 +73,11 @@ class Pass(models.Model):
     null=True)
 
   def valid(self):
-    today = date.today()
-    return today <= self.expiration_date
+    if self.expiration_date: 
+      today = date.today()
+      return today <= self.expiration_date
+    else: 
+      return True
   valid.boolean = True
   
   def __str__(self):
