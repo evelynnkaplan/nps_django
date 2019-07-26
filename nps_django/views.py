@@ -42,12 +42,15 @@ class UserPassView(APIView):
     user_pass_id = kwargs.get('pass_id', None)
    
     user_pass_queryset = Pass.objects.filter(pass_id=user_pass_id).filter(email=user_email)
-    user_pass = user_pass_queryset[0]
-    response = {
-      'pass_id': user_pass.pass_id,
-      'type': user_pass.type, 
-      'expiration_date': user_pass.expiration_date
-    }
+    if len(user_pass_queryset) > 0:
+      user_pass = user_pass_queryset[0]
+      response = {
+        'pass_id': user_pass.pass_id,
+        'type': user_pass.type, 
+        'expiration_date': user_pass.expiration_date
+      }
+    else:
+      response = {}
 
     return Response(response)
 
