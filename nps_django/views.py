@@ -52,7 +52,7 @@ class VisitViewSet(viewsets.ModelViewSet):
 
 class UserVisitView(APIView):
   def get(self, request, **kwargs):
-    user_email = self.request.query_params.get('email')
+    user_email = kwargs.get('email', None)
    
     passes = Pass.objects.filter(email=user_email)
     pks = []
@@ -68,5 +68,10 @@ class UserVisitView(APIView):
         if vis not in all_visits:
           all_visits.append(vis)
 
-    return Response({'some': 'data'})
+    response = {}
+
+    for vis in all_visits:
+      response[f'{vis.pk}'] = f'{vis}'
+
+    return Response(response)
 
