@@ -36,6 +36,21 @@ class PassViewSet(viewsets.ModelViewSet):
   queryset = Pass.objects.all().order_by('type')
   serializer_class = PassSerializer
 
+class UserPassView(APIView):
+  def get(self, request, **kwargs):
+    user_email = kwargs.get('email', None)
+    user_pass_id = kwargs.get('pass_id', None)
+   
+    user_pass_queryset = Pass.objects.filter(pass_id=user_pass_id).filter(email=user_email)
+    user_pass = user_pass_queryset[0]
+    response = {
+      'pass_id': user_pass.pass_id,
+      'type': user_pass.type, 
+      'expiration_date': user_pass.expiration_date
+    }
+
+    return Response(response)
+
 class ParkViewSet(viewsets.ModelViewSet):
   """
   API endpoint that allows parks to be viewed or edited.
