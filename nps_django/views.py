@@ -74,7 +74,7 @@ class UserVisitView(APIView):
     all_visits = []
 
     for item in passes:
-      if item.passholder_primary.pk not in pks:
+      if item.passholder_primary != None and item.passholder_primary.pk not in pks:
         pks.append(item.passholder_primary.pk)
 
     for person in pks:
