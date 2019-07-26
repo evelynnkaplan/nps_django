@@ -39,16 +39,15 @@ class PassViewSet(viewsets.ModelViewSet):
 class UserPassView(APIView):
   def get(self, request, **kwargs):
     user_email = kwargs.get('email', None)
-    user_pass_id = kwargs.get('pass_id', None)
    
-    user_pass_queryset = Pass.objects.filter(pass_id=user_pass_id).filter(email=user_email)
+    user_pass_queryset = Pass.objects.filter(email=user_email)
     if len(user_pass_queryset) > 0:
-      user_pass = user_pass_queryset[0]
-      response = {
-        'pass_id': user_pass.pass_id,
-        'type': user_pass.type, 
-        'expiration_date': user_pass.expiration_date
-      }
+      response = {}
+      for up in user_pass_queryset:
+        response[up.pass_id] = {
+          'type': up.type, 
+          'expiration_date': up.expiration_date
+        }
     else:
       response = {}
 
