@@ -34,7 +34,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '8pe)2$ycxa8k^2cy1p6l4eg7(^l3d(29^na-1y!1&t%10v%o#$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'mynpspass.herokuapp.com/']
 
