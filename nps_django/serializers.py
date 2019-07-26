@@ -9,6 +9,7 @@ class PassholderSerializer(serializers.HyperlinkedModelSerializer):
     model = Passholder
     fields = ('first_name', 'last_name', 'passes', 'visits')
 
+
 class PassSerializer(serializers.HyperlinkedModelSerializer):
   passholder_primary = serializers.StringRelatedField()
 
@@ -33,3 +34,9 @@ class VisitSerializer(serializers.HyperlinkedModelSerializer):
   class Meta:
     model = Visit
     fields = ('park', 'passholder', 'date')
+
+# class UserVisitSerializer(serializers.ModelSerializer):
+#   class Meta:
+#     model = Visit 
+#     fields = ('park', 'passholder', 'date')
+      

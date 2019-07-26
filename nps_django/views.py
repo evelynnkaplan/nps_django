@@ -1,5 +1,7 @@
 from nps_django.models import Passholder, Pass, Park, Visit
-from rest_framework import viewsets
+from rest_framework import viewsets, generics
+from rest_framework.views import APIView
+from rest_framework.response import Response
 from nps_django.serializers import PassholderSerializer, PassSerializer, ParkSerializer, VisitSerializer
 from django.http import HttpResponseRedirect
 from django.shortcuts import render 
@@ -47,4 +49,24 @@ class VisitViewSet(viewsets.ModelViewSet):
   """
   queryset = Visit.objects.all().order_by('-date')
   serializer_class = VisitSerializer
+
+class UserVisitView(APIView):
+  def get(self, request, **kwargs):
+    user_email = self.request.query_params.get('email')
+   
+    passes = Pass.objects.filter(email=user_email)
+    pks = []
+    all_visits = []
+
+    for item in passes:
+      if item.passholder_primary.pk not in pks:
+        pks.append(item.passholder_primary.pk)
+
+    for person in pks:
+      personvisits = Visit.objects.filter(passholder__pk=person)
+      for vis in personvisits:
+        if vis not in all_visits:
+          all_visits.append(vis)
+
+    return Response({'some': 'data'})
 
