@@ -11,12 +11,12 @@ The National Park Service of the United States has no database or other digital 
 
 A three-part digital ecosystem:
   * Database, custom REST API, interfaces for park rangers and passholders
-    * Deployed webapp
+    * [Deployed webapp](https://mynpspass.herokuapp.com/)
     * Built with Django
     * Stored in this repository
     
   * Data visualization dashboard
-    * Deployed site
+    * [Deployed site](https://npspassdashboard.herokuapp.com/)
     * Built with Python and Plotly/Dash
     * Data from the custom Django REST API
     * [Github repository](https://github.com/evelynnkaplan/nps_dashboard)
