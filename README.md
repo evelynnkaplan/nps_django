@@ -19,9 +19,9 @@ A three-part digital ecosystem:
     * Deployed site
     * Built with Python and Plotly/Dash
     * Data from the custom Django REST API
-    * [Github repository] (https://github.com/evelynnkaplan/nps_dashboard)
+    * [Github repository](https://github.com/evelynnkaplan/nps_dashboard)
     
   * Mobile app with digital annual pass 
     * Built with React Native and Expo
     * Data from the custom Django REST API
-    * [Github repository] (https://github.com/evelynnkaplan/nps_app)
+    * [Github repository](https://github.com/evelynnkaplan/nps_app)
