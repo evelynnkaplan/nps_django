@@ -4,6 +4,7 @@
 ## Table of Contents
 
 * [Introduction and Technologies](#introduction-and-technologies)
+* [Setup](#setup)
 
 ## Introduction and Technologies
 
@@ -30,3 +31,5 @@ A three-part digital ecosystem:
     * Built with React Native 0.59 and Expo 3.0
     * Data from the custom Django REST API
     * [Github repository](https://github.com/evelynnkaplan/nps_app)
+
+## Setup
