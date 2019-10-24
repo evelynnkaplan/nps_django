@@ -4,16 +4,17 @@
 ## Table of Contents
 
 * [Introduction and Technologies](#introduction-and-technologies)
-* [Setup](#setup)
-  * [Django webapp](#django-webapp)
-  * [Data visualization dashboard](#data-visualization-dashboard)
-  * [React Native app](#react-native-app)
+* [Django webapp](#django-webapp)
+* [Data visualization dashboard](#data-visualization-dashboard)
+* [React Native app](#react-native-app)
 
 ## Introduction and Technologies
 
 **The problem**: 
 
 The National Park Service of the United States has no database or other digital system storing records of annual passes sold to park visitors. Park rangers cannot look up visitors' annual passes at the gate, so passholders must have a physical pass to be admitted without paying an entrance fee.
+
+[**The product plan**](https://gist.github.com/evelynnkaplan/aa86a18597134093e3f1d5f3a4e5a0e0)
 
 **The solution**: 
 
@@ -29,16 +30,16 @@ A three-part digital ecosystem:
     * Data from the custom Django REST API
     * [Github repository](https://github.com/evelynnkaplan/nps_dashboard)
     
-  * Mobile app with digital annual pass 
+  * Mobile app with digital annual pass that can be accessed offline
     * [Video demo](https://drive.google.com/file/d/1M_hOIoXD3JjD6FjJD7LrM_jP_-v37EG9/view?usp=sharing)
     * [Expo build of app](https://expo.io/@ekaplan/nps_app)
     * Built with React Native 0.59 and Expo 3.0
     * Data from the custom Django REST API
     * [Github repository](https://github.com/evelynnkaplan/nps_app)
 
-## Setup
+## Django webapp
 
-### Django webapp
+### Setup
 1. If this is your first time using Django, follow [Django's quick install guide](https://docs.djangoproject.com/en/2.2/intro/install/).
 2. If this is your first time using PostgreSQL, [download PostgreSQL](https://www.postgresql.org/download/).
 3. Clone this repository and `cd nps_django`
@@ -46,13 +47,21 @@ A three-part digital ecosystem:
 5. `python3 manage.py runserver`
 6. Visit http://127.0.0.1:8000/ or whatever localhost your server is running in.
 
-### Data visualization dashboard
+### Use cases
+
+## Data visualization dashboard
+
+### Setup
 1. Clone this repository and `cd nps_dashboard`
 2. `pip install -r requirements.txt`
 3. `python3 app.py`
 4. Visit http://127.0.0.1:8050/ or whatever localhost your server is running in.
 
-### React Native app
+### Use cases
+
+## React Native app
+
+### Setup
 1. If this is your first time using Node.js and npm, [download Node.js](https://nodejs.org/en/).
 2. Install the Expo command line utility with `npm install -g expo-cli`
 3. Clone the repository and `cd nps_app`
@@ -60,4 +69,8 @@ A three-part digital ecosystem:
 5. [Download the Expo client](https://docs.expo.io/versions/v35.0.0/get-started/installation/#2-mobile-app-expo-client-for-ios) for the cell phone you want to test the app on.
 6. `npm start` -- this will open up your localhost. If it doesn't open, navigate to whatever localhost your server is running in.
 7. Use your cell phone to scan the QR code that appears in the Expo metro bundler and this will open the app on your phone's Expo client.
+
+### Use cases
+
+
 
