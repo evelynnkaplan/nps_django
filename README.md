@@ -52,3 +52,7 @@ A three-part digital ecosystem:
 3. `python3 app.py`
 4. Visit http://127.0.0.1:8050/ or whatever localhost your server is running in.
 
+### React Native app
+1. If this is your first time using Node.js and npm, [download Node.js](https://nodejs.org/en/).
+2. Install the Expo command line utility with `npm install -g expo-cli`
+
