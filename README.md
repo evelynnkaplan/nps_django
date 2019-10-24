@@ -5,6 +5,9 @@
 
 * [Introduction and Technologies](#introduction-and-technologies)
 * [Setup](#setup)
+  * Django webapp
+  * Data visualization dashboard
+  * React Native app
 
 ## Introduction and Technologies
 
@@ -34,3 +37,13 @@ A three-part digital ecosystem:
     * [Github repository](https://github.com/evelynnkaplan/nps_app)
 
 ## Setup
+
+### Django webapp
+1. If this is your first time using Django, follow [Django's quick install guide](https://docs.djangoproject.com/en/2.2/intro/install/).
+2. If this is your first time using PostgreSQL, [download PostgreSQL](https://www.postgresql.org/download/).
+3. Clone this repository and `cd nps_django`.
+4. `python3 manage.py runserver`
+5. Visit http://127.0.0.1:8000/ or whatever localhost your server is running in.
+
+### 
+1. 
