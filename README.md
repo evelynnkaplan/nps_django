@@ -41,9 +41,14 @@ A three-part digital ecosystem:
 ### Django webapp
 1. If this is your first time using Django, follow [Django's quick install guide](https://docs.djangoproject.com/en/2.2/intro/install/).
 2. If this is your first time using PostgreSQL, [download PostgreSQL](https://www.postgresql.org/download/).
-3. Clone this repository and `cd nps_django`.
-4. `python3 manage.py runserver`
-5. Visit http://127.0.0.1:8000/ or whatever localhost your server is running in.
+3. Clone this repository and `cd nps_django`
+4. `pip install -r requirements.txt`
+5. `python3 manage.py runserver`
+6. Visit http://127.0.0.1:8000/ or whatever localhost your server is running in.
 
-### 
-1. 
+### Data visualization dashboard
+1. Clone this repository and `cd nps_dashboard`
+2. `pip install -r requirements.txt`
+3. `python3 app.py`
+4. Visit http://127.0.0.1:8050/ or whatever localhost your server is running in.
+
