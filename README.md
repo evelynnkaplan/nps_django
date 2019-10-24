@@ -39,7 +39,12 @@ A three-part digital ecosystem:
 
 ## Django webapp
 
-### Setup
+### Use cases
+
+* Customized Django admin interface for park rangers enables park rangers to search for passholders by name and check them in at park gates. Park rangers can add new passholders to the database after selling a new pass. See [example in slide deck](https://docs.google.com/presentation/d/1c0iNtTjD489KFqzCfr8Unnl3YNIbn_qqdi5WxMbl59I/edit#slide=id.g5e2c72d3ff_0_2).
+* [Interface for passholders](https://mynpspass.herokuapp.com/) enables passholders who bought their passes at a point-of-sale other than a national park gate (for example, through REI) to register their pass information for quicker look-up at park gates.
+
+### Installation Instructions
 1. If this is your first time using Django, follow [Django's quick install guide](https://docs.djangoproject.com/en/2.2/intro/install/).
 2. If this is your first time using PostgreSQL, [download PostgreSQL](https://www.postgresql.org/download/).
 3. Clone this repository and `cd nps_django`
@@ -47,21 +52,28 @@ A three-part digital ecosystem:
 5. `python3 manage.py runserver`
 6. Visit http://127.0.0.1:8000/ or whatever localhost your server is running in.
 
-### Use cases
-
 ## Data visualization dashboard
 
-### Setup
+### Use case
+
+* This [data visualization dashboard](https://npspassdashboard.herokuapp.com/) allows the National Park Service to easily understand passholder data. Now that the National Park Service has a database with information about passholders and pass usage, the National Park Service can use that data to make better decisions about its annual pass program, and to more effectively market to potential passholders.  _Note: the data shown is based on fake seed data and does not represent real statistics._
+
+### Installation Instructions
 1. Clone this repository and `cd nps_dashboard`
 2. `pip install -r requirements.txt`
 3. `python3 app.py`
 4. Visit http://127.0.0.1:8050/ or whatever localhost your server is running in.
 
-### Use cases
-
 ## React Native app
 
-### Setup
+### Use cases
+
+* This cross-platform mobile app allows users to access their annual pass and pass visit history offline. Passholders can access a scannable barcode of their annual pass that park rangers with scanning devices can scan to find the user in the database. The barcode corresponds to the passholder's pass ID.
+* New users can get access to their annual pass and visit history if they create an account using the email address tied to their annual pass.
+* Users can access their data offline if they are already logged in to the app with the email address tied to their annual pass.
+* [Video showing user flow of a logged-in user](https://drive.google.com/file/d/1M_hOIoXD3JjD6FjJD7LrM_jP_-v37EG9/view?usp=sharing), including offline mode
+
+### Installation Instructions
 1. If this is your first time using Node.js and npm, [download Node.js](https://nodejs.org/en/).
 2. Install the Expo command line utility with `npm install -g expo-cli`
 3. Clone the repository and `cd nps_app`
@@ -69,8 +81,6 @@ A three-part digital ecosystem:
 5. [Download the Expo client](https://docs.expo.io/versions/v35.0.0/get-started/installation/#2-mobile-app-expo-client-for-ios) for the cell phone you want to test the app on.
 6. `npm start` -- this will open up your localhost. If it doesn't open, navigate to whatever localhost your server is running in.
 7. Use your cell phone to scan the QR code that appears in the Expo metro bundler and this will open the app on your phone's Expo client.
-
-### Use cases
 
 
 
