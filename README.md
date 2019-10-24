@@ -14,8 +14,6 @@
 
 The National Park Service of the United States has no database or other digital system storing records of annual passes sold to park visitors. Park rangers cannot look up visitors' annual passes at the gate, so passholders must have a physical pass to be admitted without paying an entrance fee.
 
-[**The product plan**](https://gist.github.com/evelynnkaplan/aa86a18597134093e3f1d5f3a4e5a0e0)
-
 **The solution**: 
 
 A three-part digital ecosystem:
