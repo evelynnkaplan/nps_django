@@ -27,6 +27,7 @@ A three-part digital ecosystem:
     * [Github repository](https://github.com/evelynnkaplan/nps_dashboard)
     
   * Mobile app with digital annual pass 
+    * [Video demo](https://drive.google.com/file/d/1M_hOIoXD3JjD6FjJD7LrM_jP_-v37EG9/view?usp=sharing)
     * [Expo build of app](https://expo.io/@ekaplan/nps_app)
     * Built with React Native 0.59 and Expo 3.0
     * Data from the custom Django REST API
