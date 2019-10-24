@@ -55,4 +55,9 @@ A three-part digital ecosystem:
 ### React Native app
 1. If this is your first time using Node.js and npm, [download Node.js](https://nodejs.org/en/).
 2. Install the Expo command line utility with `npm install -g expo-cli`
+3. Clone the repository and `cd nps_app`
+4. `npm install`
+5. [Download the Expo client](https://docs.expo.io/versions/v35.0.0/get-started/installation/#2-mobile-app-expo-client-for-ios) for the cell phone you want to test the app on.
+6. `npm start` -- this will open up your localhost. If it doesn't open, navigate to whatever localhost your server is running in.
+7. Use your cell phone to scan the QR code that appears in the Expo metro bundler and this will open the app on your phone's Expo client.
 
