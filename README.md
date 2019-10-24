@@ -5,9 +5,9 @@
 
 * [Introduction and Technologies](#introduction-and-technologies)
 * [Setup](#setup)
-  * Django webapp
-  * Data visualization dashboard
-  * React Native app
+  * [Django webapp](#django-webapp)
+  * [Data visualization dashboard](#data-visualization-dashboard)
+  * [React Native app](#react-native-app)
 
 ## Introduction and Technologies
 
