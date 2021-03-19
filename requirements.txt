@@ -11,7 +11,7 @@ Django==2.2.3
 django-environ==0.4.5
 django-heroku==0.3.1
 django-seed==0.1.9
-djangorestframework==3.9.4
+djangorestframework==3.11.2
 Faker==2.0.0
 Flask==1.1.1
 Flask-Compress==1.4.0
